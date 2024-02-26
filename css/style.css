@@ -1,0 +1,67 @@
+* {
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+body {
+	font-size: large;
+}
+
+main {
+	position: relative;
+	padding-top: 10%;
+	width: 70%;
+	height: 100%;
+}
+
+input {
+	padding-left: 10px;
+	font-size: large;
+	margin-left: 20px;
+	position: absolute;
+	right: 0px;
+	width: 40%;
+}
+
+label {
+	display: block;
+}
+
+label, input, table, h1 {
+	margin-bottom: 20px;
+}
+
+.button {
+	display: block;
+	position: static;
+	padding: 8px;
+	text-indent: 0px;
+	margin: 30px auto;
+	width: 15%;
+}
+
+#second, #third, #fourth, #fifth {
+	display: none;
+}
+
+h1 {
+	font-size: large;
+	font-weight: normal;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: medium;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+select {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	font-size: large;
+}
